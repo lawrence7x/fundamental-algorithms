@@ -3,10 +3,10 @@ def dfs(graph, start):
     result = []
 
     def dfs_helper(node):
-        result.append(node)  # Always add the node to the result
-        visited.add(node)    # Mark the node as visited
+        result.append(node) 
+        visited.add(node)    
         for neighbor in graph[node]:
-            dfs_helper(neighbor)  # Always visit neighbors
+            dfs_helper(neighbor) 
 
     dfs_helper(start)
     return result

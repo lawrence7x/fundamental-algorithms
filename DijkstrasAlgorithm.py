@@ -51,7 +51,7 @@ graph = {
 visualize_graph(graph)
 
 # Run Dijkstra's algorithm
-start_node = 'A'
+start_node = 'L'
 shortest_distances = dijkstra(graph, start_node)
 
 # Print the shortest distances from the start node
